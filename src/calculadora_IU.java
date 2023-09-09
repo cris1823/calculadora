@@ -142,6 +142,10 @@ public class calculadora_IU extends javax.swing.JFrame {
 
     private void btnDividirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDividirActionPerformed
         // TODO add your handling code here:
+        double nro1=Double.parseDouble(txtNro1.getText());
+         double nro2=Double.parseDouble(txtNro2.getText());
+         double dividir=nro1/nro2;
+         JOptionPane.showMessageDialog(this,"la dividir es :"+dividir);
     }//GEN-LAST:event_btnDividirActionPerformed
 
     private void btnrestarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnrestarActionPerformed
